@@ -57,16 +57,6 @@
         }
     }
 
-    /** Sends all static images to the iframe */
-    sendImages() {
-        this.menus.postMessage({ action: 'show-health', src: this.paths.absolute('./health.svg') })
-    }
-
-    /** Sends all currently available information to the panel */
-    sendInfo() {
-        this.menus.postMessage({ action: 'set-health', health: 50, max: 100 })
-    }
-
     onInvenButtonPress() {
         this.hooks.trigger('get-inven-score',{})
     }
