@@ -6,6 +6,7 @@ Overview:
     Contains two plugins for Vatom Spaces that provide main backend and frontend functionality for the minigame prototype.
 
 Plugins:
+
     Tutorial Plugin:
     This plugin displays game instructions for the players.
     tutorial.js:
