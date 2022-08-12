@@ -159,7 +159,7 @@ class ObjectPickup extends BaseComponent {
 
         let infotype = this.getField('type')
         
-        map_score[infotype] += 1
+        map_score[infotype] += parseFloat(this.getField('amount')) || 1
        
 
         // Hide pickup
